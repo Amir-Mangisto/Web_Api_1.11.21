@@ -1,0 +1,45 @@
+body{
+    background-color: #DFD8CA;
+    background: url("https://cdn.hipwallpaper.com/m/73/46/NjKWyg.jpg");
+    background-size: cover;
+    z-index: -1;
+}
+.searchDiv{
+    text-align: center;
+}
+.searchDiv button{
+    background-color: #483434;
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+#container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;    
+    justify-content: space-evenly;  
+}
+.movieCard{
+    border: black 2px;
+    text-align: center;
+}
+.movieCard img{
+width: 200px;
+height: 200px;
+border: solid 10px black;
+border-radius: 40px;
+}
+.movieCard img:hover{
+    opacity: 0.6;
+}
+.movieCard p , h1{
+    text-align: center;
+    color: white;
+}
